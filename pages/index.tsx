@@ -10,14 +10,10 @@ import {
     Text,
 } from '@react-three/drei'
 
-import { Perf } from 'r3f-perf'
-
 export default function Home() {
     const macbook = useGLTF(
         'https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/macbook/model.gltf'
     )
-
-    console.log(macbook)
 
     return (
         <>
@@ -34,7 +30,6 @@ export default function Home() {
                 <link rel='icon' href='/favicon.ico' />
             </Head>
             <>
-                <Perf position='top-left' />
 
                 <Environment preset='city' />
                 <ambientLight intensity={0.7} />
