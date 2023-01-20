@@ -10,3 +10,8 @@ body {
 canvas {
     touch-action: none;
 }
+
+.html {
+    position: fixed !important;
+    /*inset: 0;*/
+}
